@@ -5,7 +5,7 @@ library(data.table)
 library(dplyr)
 library(ggplot2)
 
-behav               <- read.delim("adultABCD_behav.csv",sep=",", na.strings=c(""," ","NA"), header=TRUE, skipNul=TRUE)
+behav               <- read.delim("a-ABCD_behav.csv",sep=",", na.strings=c(""," ","NA"), header=TRUE, skipNul=TRUE)
 behav.table         <- data.table(behav)
 behav.table$subject <- as.factor(behav.table$subject)
 
