@@ -100,7 +100,7 @@ start_col <- 12
 ################################# Load adult data #################################### 
 ######################################################################################
 library(data.table)
-behav.adult <- read.delim("adultABCD_behav.csv",sep=",", na.strings=c(""," ","NA"), header=TRUE, skipNul=TRUE)
+behav.adult <- read.delim("a-ABCD_behav.csv",sep=",", na.strings=c(""," ","NA"), header=TRUE, skipNul=TRUE)
 behav.table <- data.table(behav.adult)
 behav.adult <- as_data_frame(behav.table[behav.table$session=='1'])
 
