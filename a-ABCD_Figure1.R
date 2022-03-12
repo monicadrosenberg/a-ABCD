@@ -94,11 +94,6 @@ data.merge <- Reduce(function(x,y) merge(x = x, y = y, by = "subjectkey", all.x 
 data.crop  <- data.merge[ which(data.merge$scrn_asd==0 & (data.merge$scrn_epls!=1 | is.na(data.merge$scrn_epls))), ]
 data.crop  <- subset(data.crop, select = c(subjectkey, rel_family_id, site_id_l, ra_scan_cl_mid_scan_lap, ra_scan_cl_nbac_scan_lap, ra_scan_cl_sst_scan_lap, interview_age, sex, tfmri_nback_beh_performflag,  tfmri_sst_beh_performflag, tfmri_mid_beh_performflag, tfmri_nb_all_beh_c0b_rate, tfmri_nb_all_beh_c2b_rate, overall_dprime, hit_rate, falsealarm_rate, tfmri_sst_all_beh_tot_mssd, tfmri_sst_all_beh_total_meanrt_inv, tfmri_mid_all_beh_hrwpfb_rate, tfmri_mid_all_beh_hlpfb_rate, tfmri_mid_all_beh_ntpfb_rate))
 
-######### Compare releases #########
-release1.subs <- read.delim("release1point1_ndars.csv",sep=",", na.strings=c(""," ","NA"), stringsAsFactors=FALSE)
-release1.subs <- data.frame(intersect(data.crop$subjectkey,release1.subs$x))
-release2.subs <- data.frame(setdiff(data.crop$subjectkey,release1.subs$intersect.data.crop.subjectkey..release1.subs.x.))
-
 start_col <- 12
 
 ######################################################################################
