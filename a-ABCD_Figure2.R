@@ -5,7 +5,7 @@ library(dplyr)
 
 rm(list=ls())
 
-behav       <- read.delim("adultABCD_behav.csv",sep=",", na.strings=c(""," ","NA"), header=TRUE, skipNul=TRUE)
+behav       <- read.delim("a-ABCD_behav.csv",sep=",", na.strings=c(""," ","NA"), header=TRUE, skipNul=TRUE)
 behav.table <- data.table(behav)
 
 color1 <- "#AE64DC"
