@@ -4,7 +4,7 @@
 CITATION
 ########
 
-Rapuano, KM, Conley, MI, Juliano, AC, Conan, GM, Maza, MT, Woodman, K, Martinez, SA, Earl, E, Perrone, A, Feczko, E, Fair, DA, Watts, R, Casey, BJ, Rosenberg, MD. (2022). An open-access accelerated adult equivalent of the ABCD Study neuroimaging dataset (a-ABCD). NeuroImage.
+Rapuano, KM, Conley, MI, Juliano, AC, Conan, GM, Maza, MT, Woodman, K, Martinez, SA, Earl, E, Perrone, A, Feczko, E, Fair, DA, Watts, R, Casey, BJ, Rosenberg, MD. (in press). An open-access accelerated adult equivalent of the ABCD Study neuroimaging dataset (a-ABCD). NeuroImage.
 
 ########
 DATA
