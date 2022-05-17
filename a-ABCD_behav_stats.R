@@ -100,7 +100,7 @@ anova(m.loss_acc.1, m.loss_acc.2)
 anova(m.neutral_acc.1, m.neutral_acc.2)
 
 ############ Compute Bayes factors ############
-library(bayestestR)
+library(bayestestR) # The following version was used to generate the Bayes factors reported in Table 2 of the manuscript: bayestestR_0.9.0 
 bayesfactor_models(m.0bk.1, m.0bk.2, denominator = m.0bk.0)
 bayesfactor_models(m.2bk.1, m.2bk.2, denominator = m.2bk.0)
 bayesfactor_models(m.dprime.1, m.dprime.2, denominator = m.dprime.0)
