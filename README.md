@@ -35,20 +35,14 @@ The following were used for analyses reported in the manuscript:
 sessionInfo()
 
 R version 4.0.3 (2020-10-10)
-
 Platform: x86_64-apple-darwin17.0 (64-bit)
-
 Running under: macOS Catalina 10.15.7
 
 Matrix products: default
-
 BLAS:   /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
-
 LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
 
-locale:
-
-en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+locale: en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
 
 attached base packages:
 stats     graphics  grDevices utils     datasets  methods   base     
