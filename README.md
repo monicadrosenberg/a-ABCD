@@ -26,9 +26,10 @@ a-ABCD_behav_stats.R: Loads a-ABCD behavioral data and performs analyses of task
 
 a-ABCD_mood_feelings.R: Loads a-ABCD self-reported mood and feeling questionnaire data and performs analyses reported in the "Self-reported mood and feeling questionnaires" section of the text.
 
-###################
+########
 VERSION INFORMATION
-###################
+########
+
 The following were used for analyses reported in the manuscript: 
 
  sessionInfo()
