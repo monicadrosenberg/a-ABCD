@@ -33,7 +33,7 @@ a-ABCD_mood_feelings.R: Loads a-ABCD self-reported mood and feeling questionnair
 VERSION INFORMATION
 ########
 
-The following were used for analyses reported in the manuscript: 
+The following versions were used for analyses reported in the manuscript: 
 
 sessionInfo()
 
